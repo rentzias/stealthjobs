@@ -1,0 +1,78 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.panels{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.panel{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    flex: 1;
+    transition: flex .8s ease-in-out;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    
+}
+
+.panel:hover{
+    flex:4
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.batman{
+    background-image: url("../img/1.jpg");
+
+}
+
+.dishonored{
+    background-image: url("../img/2.jpg");
+
+}
+
+.hitman{
+    background-image: url("../img/3.jpg");
+
+}
+
+.styx{
+    background-image: url("../img/4.jpg");
+
+}
+.titreJeu{
+color: white;
+font-size:2.5em;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+opacity: 0%;
+transition: opacity 1s;
+}
+.mesCartes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
