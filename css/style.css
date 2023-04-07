@@ -3,7 +3,7 @@ html,body{
     padding: 0;
     background-color: black;
     overflow-x: hidden;
-  
+  color: antiquewhite;
 }
 
 
@@ -84,7 +84,7 @@ border: 0 !important;
     height: 86vh;
     width: 100vw;
     margin: 0px;
-    padding-left: 0px;
+    padding: 0px !important; 
 }
 
 
@@ -95,10 +95,26 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 size: 100%;
+color: antiquewhite;
 }
 
 .part2{
     background-image: url(../img/7.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+size: 100%;
+}
+
+.part3 {
+    background-image: url(../img/12.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+size: 100%;
+}
+.part4 {
+    background-image: url(../img/13.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
